@@ -1,5 +1,5 @@
 package cn.edu.xcu.demo.controller;
-
+///我添加的注释
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
