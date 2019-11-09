@@ -7,12 +7,13 @@ import com.baomidou.mybatisplus.generator.config.GlobalConfig;
 import com.baomidou.mybatisplus.generator.config.PackageConfig;
 import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.TemplateConfig;
+
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-//这是全局配置器的注释505
+
 public class CodeGenerator {
 
 	public static void main(String[] args) {
-		// 全局配置器
+		// 全局配置器500000
 				GlobalConfig globalConfig = new GlobalConfig();
 				globalConfig.setOutputDir(System.getProperty("user.dir") + "/src/main/java");
 				globalConfig.setAuthor("jobob");
