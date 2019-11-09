@@ -107,7 +107,7 @@
 		});
 	</script>
 	<script>
-		layui.use([]'table','form','jquery'] function() {
+		layui.use(['table','form','jquery'], function() {
 			var table = layui.table;
 
 			table.render({
@@ -206,8 +206,7 @@
 				case 'LAYTABLE_TIPS':
 					layer.alert('这是工具栏右侧自定义的一个图标按钮');
 					break;
-				}
-				;
+				};
 			});
 
 			//监听行工具事件 
@@ -221,11 +220,11 @@
 		//layui.jquery 找到 jQuery
 		layui.jquery.post(
 		"book/delete", //提交的 URL
-		{//这里传参数
+		{//这里传参数   
 		id : data.id
 		},
 		function(ret) {//成功回调函数
-		if (ret.code === "1") {//删除成功， 刷新当前页表格
+		if (ret.code == "1") {//删除成功， 刷新当前页表格
 		layer.msg(
 		ret.msg,//删除成功的消息
 		{
@@ -237,7 +236,7 @@
 		layer.close(index);//关闭
 		table.reload('test');//重新加载表单
 		});
-		} else if (ret.code === "-1") { //删除失败
+		} else if (ret.code == "-1") { //删除失败
 		layer.alert(ret.msg, {
 		icon : 2
 		}, function() {
@@ -246,7 +245,9 @@
 		}
 		});
 		});
-		}
+				}
+				});
+			});
 	</script>
 </body>
 </html>
