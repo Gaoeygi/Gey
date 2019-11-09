@@ -242,7 +242,7 @@
 		}, function() {
 		layer.close(index);
 		});
-		}
+		}  
 		});
 		});
 				}
