@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.TemplateConfig;
 
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-
+//我又添加了注释
 public class CodeGenerator {
 
 	public static void main(String[] args) {
